@@ -1,0 +1,10 @@
+/*
+
+font-size -> Tamanho da fonte
+font-family -> Descreve o tipo de fonte
+
+*/
+
+h1 {
+    font-size: small;
+}

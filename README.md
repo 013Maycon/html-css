@@ -1,4 +1,4 @@
 # html-css
  HTML5 e CSS3
 
-Estou aprendendo a criar sites e agora vou gerenciar meus repositórios
+I'm learning how to create websites and now I'm going to manage my repositories

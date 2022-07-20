@@ -18,7 +18,10 @@
 
     <h1>Reproduzindo Áudio</h1>
     <p>Vamos aprender a reproduzir áudios em HTML5</p>
-    <audio src="midia/Get Through - NEFFEX.mp3" controls autoplay></audio>
-    <!-- MP3 WAV OGG -->
-</body>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Get Through - NEFFEX.mp3" type="audio/mpeg">
+        <source src="midia/Get Through - NEFFEX.mp3" type="audio/ogg">
+        <source src="midia/Get Through - NEFFEX.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudios. <a href="midia/Get Through - NEFFEX.mp3" download="midia/Get Through - NEFFEX.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
 </html>

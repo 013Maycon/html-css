@@ -3,14 +3,30 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
-
+    
 body {
     background-image: linear-gradient(to right, #4681A6, #1DA1F2);
 }
 
 main {
     background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 10px rgba(52, 96, 124, 0.623);
     width: 600px;
     padding: 10px;
     margin: auto;
+}
 
+h1{
+    color: #0B3B59;
+    text-align: center;
+    text-shadow: 1px 1px 0px #5e93b4b7;
+}
+
+h2 {
+    color: #305973;
+}
+
+p{
+    text-align: justify;
+}

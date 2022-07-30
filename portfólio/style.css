@@ -1,7 +1,15 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:wght@400;700&display=swap');
+
+
 body{
     margin: 0;
+    font-family: 'Work Sans';
+}
+
+body * {
+    box-sizing: border-box;
 }
 
 .main-login{
@@ -23,6 +31,7 @@ body{
 }
 
 .left-login > h1 {
+    font-size: 3vw;
     color: #77ffc0;
 }
 
@@ -50,6 +59,10 @@ body{
     color: #00ff88;
     font-weight: 800;
     margin: 0;
+}
+
+.left-login-image{
+    width: 35vw;
 }
 
 .textfield {
@@ -96,4 +109,37 @@ body{
     background: #00ff88;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+@media only screen and (max-widht: 950px){
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-widht){
+    .main-login{
+        flex-direction: column;
+    }
+    .left-login > h1{
+        display: none;
+    }
+
+    .left-login{
+        width: 100%;
+        height: auto;
+    }
+
+    .right-login{
+        width: 100%;
+        height: auto;
+    }
+
+    .left-login-image{
+        width: 50vh;
+    }
+
+    .card-login{
+        width: 90%;
+    }
 }

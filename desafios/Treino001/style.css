@@ -5,11 +5,11 @@
 
 }
 
-body{
+.body{
     background-image: linear-gradient(to right #007369 #008C72 );
 }
 
-main{
+.main{
     background-color: white;
     border-radius: 20px;
     width: 600px;
@@ -17,17 +17,20 @@ main{
     margin: auto
 }
 
-h1 {
+.h1 {
     color: #1b7258;
     font-weight: bolder;
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
 }
 
 
-p{
+.p{
     text-align: justify;
     font-size: smaller;
 }
 
-
+.img{
+    
+}

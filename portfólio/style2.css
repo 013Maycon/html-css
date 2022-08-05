@@ -5,6 +5,10 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+body * {
+    box-sizing: border-box;
+}
+
 .main-login {
     width: 100vw; /*viewport width*/
     height: 100vh; /*viewport height*/
@@ -119,4 +123,22 @@ body {
     .main-login {
         flex-direction: column;
     }
+    .left-login > h1 {
+        display: none;
+    }
+    .left-login {
+        width: 100%;
+        height: auto;
+    }
+    .right-login {
+        width: 100%;
+        height: auto;
+    }
+    .left-login-image {
+        width: 50vw;
+    }
+    .card-login {
+        width: 90%;
+    }
+
 }

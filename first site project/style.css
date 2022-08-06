@@ -1,0 +1,22 @@
+body {
+    background: #ccc; /*Fundo cinza claro em volta do layout*/
+    color: #333;    /*textos na cor preta, por padrão */
+    margin: 0;  
+    padding: 0;
+    font: 12px/1.4 Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#tudo {
+    width: 980px;
+    margin: 0;
+    text-align: left;
+
+    background: #fff; /*fundo branco do layout */
+}
+
+#topo {
+    width: 980px;   /*largura do topo */
+    height: 100px;    /*altura do topo */
+    background: #f60 url('motor-capa.jpg') no repeat; /*imagem de fundo do topo */
+}

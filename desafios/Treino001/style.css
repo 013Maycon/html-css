@@ -17,13 +17,15 @@
     margin: auto
 }
 
-.h1 {
+.h1#textoprincipal {
     color: #1b7258;
     font-weight: bolder;
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+    margin: auto;
 }
+
 
 
 .p{
@@ -34,3 +36,5 @@
 .img{
     
 }
+
+

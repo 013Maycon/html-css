@@ -8,12 +8,13 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-
+            margin: auto;
         }
 
         table {
             width: 500px;
             border-collapse: collapse;
+            margin: auto;
         }
 
         td, th {
@@ -29,12 +30,26 @@
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: #383838;
             color: white;
+        }
+
+        tbody > tr:nth-child(odd) { /* 2n-1 */
+            background-color: white;
+            font-weight: bold;
+        }
+
+        tbody > tr:nth-child(even) { /*2n */
+            background-color: lightgray;
+            font-weight: bold;
         }
 
         td.num {
             text-align: right;
+        }
+
+        h1 {
+            text-align: center;
         }
     </style>
 </head>
@@ -58,7 +73,7 @@
         <thead>
             <tr>
                 <th scope="col">Estado</th>
-                <th scope="col">População</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
 

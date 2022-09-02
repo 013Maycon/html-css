@@ -15,6 +15,7 @@
             width: 500px;
             border-collapse: collapse;
             margin: auto;
+            position: relative;
         }
 
         td, th {
@@ -32,6 +33,12 @@
         thead, tfoot {
             background-color: #383838;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
         }
 
         tbody > tr:nth-child(odd) { /* 2n-1 */
@@ -194,7 +201,6 @@
                 <td class="num"><strong>213.317.639</strong></td>
             </tr>
         </tfoot>
-        
     </table>
 </body>
 </html>

@@ -9,6 +9,9 @@
 </head>
 
 <style>
+    h1 {
+        text-align: center;
+    }
     
     body {
         font-family: Arial, Helvetica, sans-serif;
@@ -16,6 +19,8 @@
 
     table {
         border-collapse: collapse;
+        text-align: center;
+        margin: auto;
     }
 
     caption {
@@ -25,17 +30,31 @@
     }
 
     th, td {
-        border: 1px solid gray;
+        border: 2px solid rgb(0, 0, 0);
         padding: 10px;
+    }
+
+    .cabecalho {
+        background-color: rgba(0, 0, 0, 0.781);
+        color: white;
+    }
+
+    .mulheres {
+        background-color: darkgray;
+    }
+
+    .homens {
+        background-color: rgba(45, 94, 238, 0.329);
     }
 </style>
 
 <body>
+    <h1>Exercício de Tabelas</h1>
     <table>
         <caption>
             Filmes favoritos
         </caption>
-        <thead>
+        <thead class="cabecalho">
             <tr>
                 <th>grupos</th>
                 <th>nomes</th>
@@ -44,42 +63,42 @@
         </thead>
         <tbody>
             <tr>
-                <th rowspan="3">Mulheres</th>
-                <td>Ana Maria Santos</td>
-                <td>Alien</td>
-                <td>Rambo</td>
-                <td>Vingadores</td>
+                <th rowspan="3" class="mulheres">Mulheres</th>
+                <td class="mulheres">Ana Maria Santos</td>
+                <td class="mulheres">Alien</td>
+                <td class="mulheres">Rambo</td>
+                <td class="mulheres">Vingadores</td>
             </tr>
             <tr>
-                <td>Beatriz Souza</td>
-                <td>Hulk</td>
-                <td>Inception</td>
-                <td>Batman</td>
+                <td class="mulheres">Beatriz Souza</td>
+                <td class="mulheres">Hulk</td>
+                <td class="mulheres">Inception</td>
+                <td class="mulheres">Batman</td>
             </tr>
             <tr>
-                <td>Cláudia Melo</td>
-                <td>Oblivion</td>
-                <td>Matrix</td>
-                <td>Big Hero</td>
+                <td class="mulheres">Cláudia Melo</td>
+                <td class="mulheres">Oblivion</td>
+                <td class="mulheres">Matrix</td>
+                <td class="mulheres">Big Hero</td>
             </tr>
             <tr>
-                <th rowspan="3">Homens</th>
-                <td>Bruno Mendonça</td>
-                <td>Intocáveis</td>
-                <td>Amnnésia</td>
-                <td>Gladiador</td>
+                <th rowspan="3" class="homens">Homens</th>
+                <td class="homens">Bruno Mendonça</td>
+                <td class="homens">Intocáveis</td>
+                <td class="homens">Amnnésia</td>
+                <td class="homens">Gladiador</td>
             </tr>
             <tr>
-                <td>Daniel Lourenço</td>
-                <td>Wall-E</td>
-                <td>Oldboy</td>
-                <td>Dangal</td>
+                <td class="homens">Daniel Lourenço</td>
+                <td class="homens">Wall-E</td>
+                <td class="homens">Oldboy</td>
+                <td class="homens">Dangal</td>
             </tr>
             <tr>
-                <td>Fabiano Mota</td>
-                <td>Star Wars 5</td>
-                <td>Taxi Driver</td>
-                <td>Toy Story</td>
+                <td class="homens">Fabiano Mota</td>
+                <td class="homens">Star Wars 5</td>
+                <td class="homens">Taxi Driver</td>
+                <td class="homens">Toy Story</td>
             </tr>
         </tbody>
     </table>

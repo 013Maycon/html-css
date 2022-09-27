@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+#enviar:hover {
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+#limpar:hover {
+    background-color: yellow;
+    border-radius: 5px;
+}

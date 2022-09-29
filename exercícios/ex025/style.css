@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
 #enviar:hover {
-    background-color: yellow;
+    color: white;
+    background-color: rgb(0, 0, 0);
     border-radius: 5px;
 }
 
 #limpar:hover {
-    background-color: yellow;
+    color: white;
+    background-color: rgb(0, 0, 0);
     border-radius: 5px;
 }

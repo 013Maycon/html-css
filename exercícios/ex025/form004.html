@@ -7,17 +7,24 @@
     <title>Formulário</title>
 </head>
 <body>
-    <h1>Exemplo de formulário</h1>
-    <form action="cadastro.php" method="get" autocomplete="on">
-        <div>
-            <label for="iemail">E-mail</label>
-            <input type="email" name="mail" id="iemail" autocomplete="email" required>
-        </div>
-        <div>
-            <label for="itel">Telefone</label>
-            <input type="tel" name="tel" id="itel" autocomplete="tel" 
-            pattern="^[0-9]{4,5}-[0-9]{4}$" required>
-        </div>
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <h1>Exemplo de formulário</h1>
+        <form action="cadastro.php" method="get" autocomplete="on">
+            <div>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" minlength="5" max="20" required>
+            </div>
+            <div>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="mail" id="iemail" autocomplete="email" required>
+            </div>
+            <div>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel"
+                pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required placeholder="(xx)xxxx-xxxx">
+            </div>
+    </fieldset>
         <div>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">

@@ -8,11 +8,19 @@
 </head>
 <body>
     <h1>Exemplo de formulário</h1>
-    <form action="cadastro.php" method="get">
-        <p>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <div>
             <label for="iemail">E-mail</label>
-            <input type="email" name="mail" id="iemail">
-        </p>
+            <input type="email" name="mail" id="iemail" autocomplete="email" required>
+        </div>
+        <div>
+            <label for="itel">Telefone</label>
+            <input type="tel" name="tel" id="itel" autocomplete="tel">
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
     </form>
 </body>
 </html>

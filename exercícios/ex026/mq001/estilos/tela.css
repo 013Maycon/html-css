@@ -27,7 +27,7 @@ menu ul {
 }
 
 menu li {
-    background-color: rgb(92, 92, 92);
+    background-color: rgb(58, 56, 56);
     color: white;
     display: inline-block;
     padding: 10px;
@@ -36,5 +36,5 @@ menu li {
 article {
     width: 600px;
     display: block;
-    margin: auto;
+    margin: auto ;
 }

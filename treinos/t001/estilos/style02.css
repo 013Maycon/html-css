@@ -13,5 +13,12 @@
 
 .banner {
     height: calc(100vh - 6rem);
-    background-color: red;
+    background-image: url(../imagens/reuniao.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+li {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

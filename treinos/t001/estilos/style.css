@@ -1,17 +1,27 @@
 @charset "UTF-8";
 
-* {
-    margin: 0;
+div {
+    display: inline-block;
+    background-color: #ccc;
+    width: 200px;
+    height: 120px;
 }
 
-.menu {
-    background-color: blue;
-    height: 6rem;
-    color: white;
-    font-size: 5rem;
+span {
+    display: inline-block;
+    background-color: #ffc;
+    width: calc(100% - 205px);
+    height: 120px;
 }
 
-.banner {
-    height: calc(100vh - 6rem);
-    background-color: red;
+ul {
+    padding: 0px;
+}
+
+li {
+    float: left;
+    display: inline-block;
+    background-color: #cff;
+    width: calc(100% / 5);
+    height: 30px;
 }

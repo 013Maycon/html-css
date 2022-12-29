@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+}
+
+.menu {
+    background-color: blue;
+    height: 6rem;
+    color: white;
+    font-size: 5rem;
+}
+
+.banner {
+    height: calc(100vh - 6rem);
+    background-color: red;
+}
